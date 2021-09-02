@@ -23,7 +23,7 @@ Note the following:
 
 1. This document specifies the content of each configuration section, as appears in applicationHost.config. By design, many of the sections are empty or not complete (only some of their content appears in the XML). The rest of the values are taken from the schema defaults. This is done to avoid too much information and cluttering of the file, and in order to keep it reasonably readable.
 
-    - For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to `%windir%\system32\inetsrv\config\schema\IIS\_Schema.xml` (for IIS settings), or `ASPNET\_Schema.xml` (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
+    - For full schema reference, including default values for all properties in every section, their valid ranges, etc., refer to `%windir%\system32\inetsrv\config\schema\IIS_Schema.xml` (for IIS settings), or `ASPNET\_Schema.xml` (for ASP.NET settings), or FX\_Schema.xml (for other .NET Framework settings).
     - For convenience, chunks of these files are included in this document in the appropriate sections so the reader can understand which properties are available, what the default values are, etc., for each section. See the additional note below about how to read schema information.
 2. Make a backup of the file before making any changes to it.
 
@@ -31,7 +31,7 @@ Note the following:
 
 ## How to Read Config Schema
 
-As noted above, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: `%windir%\system32\inetsrv\config\schema\IIS\_Schema.xml`. This section explains how to read schema information.
+As noted above, this document contains snippets of schema information for each section, so the reader can discover what properties are available and what their default values and valid ranges are. The snippets are taken directly from the configuration schema file for IIS settings: `%windir%\system32\inetsrv\config\schema\IIS_Schema.xml`. This section explains how to read schema information.
 
 The schema for each configuration section is defined in a XML element. There is no schema definition for section groups. The following format is used here to explain how to read the schema:
 
